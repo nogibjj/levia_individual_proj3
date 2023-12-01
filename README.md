@@ -46,7 +46,7 @@ The project includes complex figures showing the distributions of `danceability`
 The ETL pipeline is designed to be triggered automatically. The trigger setup details are documented within the notebook, ensuring that the pipeline runs on schedule or in response to specific events.
 
 ## Video Demo
-A video demonstration of the ETL pipeline can be found here: 
+A video demonstration of the ETL pipeline can be found here: https://drive.google.com/file/d/1vwY8sNCJLg9RXID8gnGBNMaLVr1TgCe1/view?usp=drive_link
 
 ## Conclusion
 This project showcases the use of modern data engineering tools and practices to process and analyze large datasets effectively. The use of Delta Lake and Spark SQL demonstrates a reliable and scalable approach to data transformation and storage.
