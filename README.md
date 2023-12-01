@@ -4,18 +4,23 @@
 This project implements an ETL (Extract, Transform, Load) pipeline using Databricks, Delta Lake, and Spark SQL to analyze a Spotify playlist dataset. The pipeline extracts data from Hive Metastore, transforms it to derive meaningful insights, and loads it into Delta Lake for further analysis and visualization.
 
 ## Features
+- **import packages**
+  ![import](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/import.png)
 - **Data Extraction**: Utilize Databricks to extract data from the Hive Metastore.
-  
+  ![step1](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/step1.png)
 - **Data Transformation**: Leverage Spark SQL to perform transformations on the data.
-  
+  ![step2](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/step2.png)
 - **Data Loading**: Use Delta Lake for efficient and reliable data storage.
-  
+  ![step3](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/step3.png)
 - **Data Visualization**: Generate complex figures to visualize the distribution of musical features.
-  
+  ![step4](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/step4.png)
+  ![i1](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/image1.png)
+  ![i2](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/image2.png)
+  ![i3](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/image3.png)
 - **Error Handling and Validation**: Implement robust error handling and data validation to ensure the integrity of the pipeline.
-  
+  ![step5](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/step5.png)
 - **Automated Trigger**: Set up an automated process to trigger the pipeline execution.
-
+  ![pipeline](https://github.com/nogibjj/levia_individual_proj3/blob/main/images/pipeline.png)
 ## Dependencies
 - Databricks Runtime
 - Spark SQL
